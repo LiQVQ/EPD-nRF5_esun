@@ -1,8 +1,56 @@
 ```
-# Security and private keys
-private_key.pem
-public_key.pem
+# Build artifacts and firmware
+*.zip
+*.bin
+*.dat
+*.hex
+*.elf
+*.out
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+build/
+dist/
+target/
 
-# Firmware binary
-firmware.dat
+# Reference extraction
+ref_extract/
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Environment files
+.env
+.env.local
+*.env.*
+
+# Editors and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.coverage
+coverage/
+htmlcov/
+.julia/
+julia-*/
+zig*/
+.gradle/
 ```
